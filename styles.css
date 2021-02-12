@@ -1,6 +1,5 @@
 *{
   margin: 0;
-  padding:0;
   box-sizing: border-box;
 }
 .nav>li{
@@ -19,9 +18,10 @@
 }
 .main-nav{
   background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/mw.jpg);
-  padding-bottom: 500px;
-  background-size: 100% 100%;
+  padding-bottom: 300px;
+  background-size: cover;
   color: white;
+  padding-top: 1%;
  
 }
 .nav>li>a{
@@ -31,4 +31,21 @@
 .nav>li>a:link,
 .nav>li>a:visited{
 color: white;
+}
+.info{
+	/* margin:20px auto; */
+  margin-top: 70px;
+	background: rgba(0, 0, 0, 0.349);
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	justify-content: center;
+}
+.info>ul{
+	border-right: white dashed 1px;
+	padding-right: 20px;
+	border-top: 1px solid white; 
+	border-left: white dashed 1px;
+  margin-top: 10px;
 }
