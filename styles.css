@@ -7,7 +7,28 @@
   float: right;
   margin-left: 10px;
   padding: 10px;
+  list-style: none;
+  font-size: 20px;
+  padding: 25px;
+  margin-right: 20px;
+ 
 }
-.nav>li:last-of-child{
-  margin-right: 25px;
+.nav>li:nth-child(4){
+  margin-right: 0;
+  float: left;
+}
+.main-nav{
+  background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(images/mw.jpg);
+  padding-bottom: 500px;
+  background-size: 100% 100%;
+  color: white;
+ 
+}
+.nav>li>a{
+  text-decoration: none;
+}
+.nav>li>a:active,
+.nav>li>a:link,
+.nav>li>a:visited{
+color: white;
 }
