@@ -75,3 +75,29 @@ color: white;
   border-bottom: 1px dotted white;
   transition: all 1s;
 }
+.cover{
+  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/banner.jpg);
+  background-size: 50% 100%;
+  padding-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.form{
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 1%;
+}
+input{
+  margin-top: 10px;
+  width: 90%;
+  margin-left: 5px;
+}
+.signup{
+  margin-top: 5%;
+}
+label{
+  margin-top: 4%;
+}
