@@ -200,15 +200,25 @@ margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: rgba(128, 128, 128, 0.308);
 }
 .fac-box{
-  margin: 5px 0px;
+  margin: 10px 40px;
   padding: 0%;
-  width: 30%;
+  width: 25%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all 1s;
+  text-align: center;
+  font-size: 20px;
+  background-color: white;
+}
+.fac-box:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.2);
 }
 .fac-box img{
   height: 200px;
-  width: 280px;
+  width: 100%;
 }
 .fac-box p{
  width: 90%;
