@@ -210,7 +210,8 @@ margin-top: 10px;
   transition: all 1s;
   text-align: center;
   font-size: 20px;
-  background-color: white;
+  background-color: rgb(99, 99, 0);
+  color: white;
 }
 .fac-box:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -221,5 +222,6 @@ margin-top: 10px;
   width: 100%;
 }
 .fac-box p{
- width: 90%;
+ width: 100%;
+
 }
