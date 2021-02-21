@@ -225,3 +225,18 @@ margin-top: 10px;
  width: 100%;
 
 }
+.moving{
+  background-color: rgba(0, 0, 0, 0.295);
+  margin-top: 20px;
+
+}
+.moving>p{
+  font-size: 20px;
+  animation:move 20s infinite;
+}
+
+
+@keyframes move{
+	from{transform: translateX(-500px);}
+	to{transform: translateX(1400px);}
+	}
