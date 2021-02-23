@@ -241,3 +241,38 @@ margin-top: 10px;
 	from{transform: translateX(1400px);}
 	to{transform: translateX(-550px);}
 	}
+  .sixsteps{
+    text-align: center;
+    background-color: rgba(255, 192, 203, 0.596);;
+    padding: 1%;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px 3%;
+    padding: 0%;
+    
+  }
+  .steps{
+    background-color: rgba(30, 30, 31, 0.719);
+    margin: 5px 10px;
+    padding: 30px;
+    justify-self: center;
+    align-self: center;
+    color: rgb(223, 217, 217);
+    font-size: 15px;
+    box-shadow: black 2px 2px 4px;
+    transition: all .5s;
+    font-weight: 5;
+  }
+  .steps>h3{
+    background-color: rgb(0, 192, 240);
+    color: white;
+    border-radius: 500px;
+    margin: 0 auto;
+    width: 25px;
+  }
+  .steps:hover{
+    transform: scale(1.4);
+  }
