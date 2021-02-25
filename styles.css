@@ -275,3 +275,20 @@ margin-top: 10px;
   .steps:hover{
     transform: scale(1.4);
   }
+  .blog-posts{
+    padding: 0%;
+    text-align: center;
+  }
+  .blog-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+  }
+  .blog{
+    height: auto;
+    width: 30%;
+  }
+  .blog>img{
+    height: 50%;
+    width: 100%;
+  }
