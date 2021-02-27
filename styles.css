@@ -276,8 +276,10 @@ margin-top: 10px;
     transform: scale(1.4);
   }
   .blog-posts{
+    margin-top: -5px;
     padding: 0%;
     text-align: center;
+    background-color: rgba(0, 128, 0, 0.171); 
   }
   .blog-container{
     display: flex;
@@ -288,8 +290,24 @@ margin-top: 10px;
     height: auto;
     width: 30%;
     box-shadow: 2px 2px 1px grey;
+    outline: 1px solid rgba(128, 128, 128, 0.336);
+    background-color: white;
   }
   .blog>img{
     height: 50%;
     width: 100%;
+  }
+  .blog-posts>h2{
+    margin-top: 5px;
+    font-size: 35px;
+    color: rgba(128, 128, 128, 0.89);
+  }
+  .blog-posts>h2::after{
+    display: block;
+    content: ' ';
+    border: 1px solid rgba(0, 0, 0, 0.521);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+
   }
