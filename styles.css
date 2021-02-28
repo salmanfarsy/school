@@ -287,7 +287,7 @@ margin-top: 10px;
     padding: 5%;
   }
   .blog{
-    height: 750px;
+    height: 550px;
     width: 30%;
     box-shadow: 2px 2px 1px grey;
     outline: 1px solid rgba(128, 128, 128, 0.336);
@@ -296,10 +296,10 @@ margin-top: 10px;
     background-color: rgba(0, 0, 255, 0.274);
   }
   .blog>img{
-    height: 50%;
+    height: 30%;
     width: 100%;
     transform: scale(1.2);
-    margin-bottom: 7%;
+    margin-bottom: 3%;
     /* border-bottom:1px solid gray ; */
     box-shadow:  5px 0px 3px rgb(8, 2, 2);
     
@@ -322,7 +322,7 @@ margin-top: 10px;
   height: 20%;
     word-spacing: 2px;
     letter-spacing: 2px;
-    line-height: 190%;
+    line-height: 180%;
     text-align: left;
     margin: 15px 10px;
   }
