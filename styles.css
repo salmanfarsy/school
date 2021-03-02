@@ -262,7 +262,7 @@ margin-top: 10px;
     color: rgb(223, 217, 217);
     font-size: 18px;
     box-shadow: black 2px 2px 4px;
-    transition: all .5s;
+    transition: all 1s;
     font-weight: 600;
   }
   .steps>h3{
@@ -285,6 +285,7 @@ margin-top: 10px;
     display: flex;
     justify-content: space-around;
     padding: 5%;
+  
   }
   .blog{
     height: 550px;
@@ -294,6 +295,7 @@ margin-top: 10px;
     background-color: white;
     overflow: hidden;
     background-color: rgba(0, 0, 255, 0.274);
+    
   }
   .blog>img{
     height: 30%;
@@ -302,6 +304,7 @@ margin-top: 10px;
     margin-bottom: 3%;
     /* border-bottom:1px solid gray ; */
     box-shadow:  5px 0px 3px rgb(8, 2, 2);
+    transition: all 1s;
     
   }
   .blog>img:hover{
@@ -329,7 +332,7 @@ margin-top: 10px;
   .blog-posts>h2{
     margin-top: 5px;
     font-size: 35px;
-    color: rgba(128, 128, 128, 0.89);
+    color: rgba(34, 34, 34, 0.89);
   }
   .blog-posts>h2::after{
     display: block;
@@ -344,10 +347,18 @@ margin-top: 10px;
     border-bottom: rgb(0, 47, 255) 1px solid;
     width: 30%;
     margin: 25% auto;
+    transition: all 1s;
   }
   .blog>h4:hover{
     border-bottom: rgb(0, 47, 255) 5px solid;
     font-size: 20px;
     cursor: pointer;
     color: rgb(63, 63, 63);
+  }
+  footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: gray;
+    color: rgb(197, 197, 197);
+    padding: 0px;
   }
