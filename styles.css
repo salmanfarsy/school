@@ -362,3 +362,12 @@ margin-top: 10px;
     color: rgb(197, 197, 197);
     padding: 0px;
   }
+#mobile{
+  float: right;
+  margin-top:10px ;
+  display: none;
+  cursor: pointer;
+  
+}
+
+  
