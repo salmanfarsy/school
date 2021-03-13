@@ -48,3 +48,24 @@
     padding: 0 20%;
     text-align: left;
   }
+  main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+ .student{
+   width: 10%;
+
+
+ }
+ .camp-stats{
+  width: 10%;
+  
+
+}
+.campus{
+  width: 80%;
+}
+  .card img{
+    height: 300px;
+    width: 400px;
+  }
