@@ -51,19 +51,39 @@
   main{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    margin: auto 5px;
   }
- .student{
+  main ul{
+    list-style: none;
+  }
+ /* {
    width: 10%;
+   align-self: start;
+   position: sticky;
+   top:0;
 
 
+ } */
+ h3{
+   font-size: 2em;
  }
- .camp-stats{
-  width: 10%;
-  
+ .camp-stats, .student{
+  margin-top: 10px;
+  width: 20%;
+  align-self: start;
+  position: sticky;
+  top:0;
+  background-color: rgb(30, 230, 230);
 
 }
+.camp-stats li,.student li{
+  border-bottom: black dotted 1px;
+  font-size: 20px;
+  margin: 15px auto;
+}
 .campus{
-  width: 80%;
+  width: 60%;
 }
   .card img{
     height: 300px;
