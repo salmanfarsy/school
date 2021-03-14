@@ -65,8 +65,26 @@
 
 
  } */
- h3{
+ h3, h2{
    font-size: 2em;
+   border-bottom: 1px solid rgb(0, 0, 0);
+   width: 90%;
+   margin: 0 auto;
+ }
+ .card{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 20px 10px;
+   background-color: rgba(128, 128, 128, 0.144);
+ }
+ .card p{
+  width: 45%;
+  align-self: center;
+  font-size: 1.5em;
+ }
+ .card img{
+width: 75%;
  }
  .camp-stats, .student{
   margin-top: 10px;
@@ -74,13 +92,16 @@
   align-self: start;
   position: sticky;
   top:0;
-  background-color: rgb(30, 230, 230);
+  background:linear-gradient(to right, rgb(28, 201, 201), rgb(22, 151, 151)) ;
+  box-shadow: 3px 3px 3px gray;
+  color: white;
 
 }
 .camp-stats li,.student li{
   border-bottom: black dotted 1px;
   font-size: 20px;
-  margin: 15px auto;
+  margin: 30px auto;
+  text-align: left;
 }
 .campus{
   width: 60%;
@@ -88,4 +109,11 @@
   .card img{
     height: 300px;
     width: 400px;
+  }
+  footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: gray;
+    color: rgb(197, 197, 197);
+    padding: 0px;
   }
