@@ -20,7 +20,7 @@
   }
   .main-nav{
     background-image:linear-gradient(rgb(0, 140, 255), rgb(0, 195, 255));
-    padding-bottom: 15%;
+    padding-bottom: 1%;
     background-size: cover;
     color: white;
     padding-top: 1%;
@@ -37,4 +37,17 @@
   .nav>li>a:hover{
   color: rgba(32, 32, 32, 0.699);
   border-bottom: 1px solid white;
+  }
+  .cover{
+    margin:10%;
+    font-size: 1.2em;
+    line-height: 150%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+  }
+  .cover p{
+    margin-top: 5%;
+  }
+  .cover h1{
+    font-size: 3em;
   }
