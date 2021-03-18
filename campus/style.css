@@ -91,7 +91,7 @@ width: 75%;
   width: 20%;
   align-self: start;
   position: sticky;
-  top:0;
+  top:100px;
   background:linear-gradient(to right, rgb(28, 201, 201), rgb(22, 151, 151)) ;
   box-shadow: 3px 3px 3px gray;
   color: white;
@@ -117,3 +117,12 @@ width: 75%;
     color: rgb(197, 197, 197);
     padding: 0px;
   }
+  .sticky{
+    background-color: rgba(0, 0, 0, 0.466);
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    
+  }
+  
