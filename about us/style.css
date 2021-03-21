@@ -59,4 +59,24 @@
     z-index: 999;
     
   }
-  
+section{
+  background:linear-gradient(rgba(255, 0, 0, 0.301), rgba(0, 0, 255, 0.39)), url('image/e0f6d1f4e4888d3d442e3611419bd3b1.jpg');
+  font-size: 20px;
+  background-size: cover;
+  color: white;
+  padding-left: 5%;
+  padding-top: 2%;
+} 
+section div{
+  padding: 2%;
+} 
+.contact h3{
+  margin: 15px;
+}
+footer{
+  font-size: 15px;
+  text-align: center;
+  background-color: gray;
+  color: rgb(197, 197, 197);
+  padding: 0px;
+}
