@@ -345,6 +345,7 @@ margin-top: 10px;
 
   }
   .blog>h4{
+    display: block;
     border-bottom: rgb(0, 47, 255) 1px solid;
     width: 30%;
     margin: 25% auto;

@@ -25,10 +25,16 @@
         width: 50%;
     }
     .blog {
+        display: flex;
+        flex-wrap: wrap;
         margin: 5px 50px;
         height: 550px;
         width: 50%;
     }
+    .blog>h3 {
+        width: 100%;
+    }
+
     .cover{
      display:flex;
      flex-wrap: wrap;
