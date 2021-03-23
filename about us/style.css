@@ -69,9 +69,19 @@ section{
 } 
 section div{
   padding: 2%;
+  margin:10%;
 } 
 .contact h3{
   margin: 15px;
+}
+.contact{
+  margin: 0%;;
+}
+section div img{
+  height: 10em;
+  width: 8em;
+  float: right;
+  margin: 20px;
 }
 footer{
   font-size: 15px;
