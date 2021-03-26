@@ -1,4 +1,5 @@
 const nav = document.querySelector('.nav');
+const menu = document.querySelector('.menu');
 window.addEventListener('scroll', sticky);
 
 function sticky(){
