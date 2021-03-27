@@ -382,5 +382,12 @@ margin-top: 10px;
 .menu{
   display: none;
 }
+.nav .toggle{
+  display:block;
+  padding-bottom: 10%;
+}
+.nav .toggle li{
+float: left;
+width: 100%;  
 
-  
+}
