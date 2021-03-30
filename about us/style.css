@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  .nav>li{
+  .nav>ul>li{
     float: right;
     margin-left: 10px;
     padding: 10px;
@@ -14,30 +14,31 @@
     margin-right: 20px;
    
   }
-  .nav>li:nth-child(4){
+  .nav>ul>li:nth-child(4){
     margin-right: 0;
     float: left;
   }
   .main-nav{
     background-image:linear-gradient(rgb(0, 140, 255), rgb(0, 195, 255));
-    padding-bottom: 1%;
+    padding-bottom: 25vh;
     background-size: cover;
     color: white;
-    padding-top: 1%;
+    /* padding-top: 1%; */
    
   }
-  .nav>li>a{
+  .nav>ul>li>a{
     text-decoration: none;
   }
-  .nav>li>a:active,
-  .nav>li>a:link,
-  .nav>li>a:visited{
+  .nav>ul>li>a:active,
+  .nav>ul>li>a:link,
+  .nav>ul>li>a:visited{
   color: white;
   }
-  .nav>li>a:hover{
-  color: rgba(32, 32, 32, 0.699);
+  .nav>ul>li>a:hover{
+  color: rgba(177, 176, 176, 0.212);
   border-bottom: 1px solid white;
   }
+  
   .cover{
     margin:10%;
     font-size: 1.2em;
@@ -57,6 +58,7 @@
     width: 100%;
     height: auto;
     z-index: 999;
+    top: 0;
     
   }
 section{
@@ -89,4 +91,27 @@ footer{
   background-color: gray;
   color: rgb(197, 197, 197);
   padding: 0px;
+}
+.menu{
+  visibility: hidden;
+}
+.nav .toggle{
+  display:block;
+  padding-bottom: 10%;
+}
+.nav .toggle li{
+float: left;
+width: 100%;  
+
+}
+@media only screen and (max-width: 1000px){
+  .menu{
+      visibility: visible;
+      font-size: 2em;
+      margin-left:10px;
+  }
+  .nav>ul{
+      display: none;
+     
+  }
 }

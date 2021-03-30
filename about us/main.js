@@ -1,4 +1,6 @@
 const nav = document.querySelector('.nav');
+const menu = document.querySelector('.menu');
+const ul = document.querySelector('ul');
 window.addEventListener('scroll', sticky);
 
 function sticky(){
@@ -9,3 +11,9 @@ function sticky(){
         nav.classList.remove('sticky');
     }
 };
+
+menu.addEventListener('click', toggle);
+
+function toggle(){
+    ul.classList.toggle('toggle');
+}
