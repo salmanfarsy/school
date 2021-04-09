@@ -47,3 +47,19 @@
      flex-wrap: wrap;
    }
         }
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .blog>h4{
+      margin: 30% auto;
+
+  }
+  .blog>p{
+      font-size: 14px;
+  }
+    /* CSS */
+    
+  }
